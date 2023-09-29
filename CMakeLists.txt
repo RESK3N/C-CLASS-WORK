@@ -6,5 +6,6 @@ set(CMAKE_C_STANDARD 23)
 add_executable(CLASS_WORK
         #1.c
         #2.c
-        3.c
-)
+        #3.c
+        4.c
+        )
