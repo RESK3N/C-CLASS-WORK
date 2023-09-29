@@ -49,8 +49,14 @@ cmake_ninja_workdir = E$:/CLASS$ WORK/cmake-build-debug/
 
 build cmake_object_order_depends_target_CLASS_WORK: phony || CMakeFiles/CLASS_WORK.dir
 
-build CMakeFiles/CLASS_WORK.dir/4.c.obj: C_COMPILER__CLASS_WORK_unscanned_Debug E$:/CLASS$ WORK/4.c || cmake_object_order_depends_target_CLASS_WORK
-  DEP_FILE = CMakeFiles\CLASS_WORK.dir\4.c.obj.d
+build CMakeFiles/CLASS_WORK.dir/6.c.obj: C_COMPILER__CLASS_WORK_unscanned_Debug E$:/CLASS$ WORK/6.c || cmake_object_order_depends_target_CLASS_WORK
+  DEP_FILE = CMakeFiles\CLASS_WORK.dir\6.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CLASS_WORK.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLASS_WORK.dir
+
+build CMakeFiles/CLASS_WORK.dir/7.c.obj: C_COMPILER__CLASS_WORK_unscanned_Debug E$:/CLASS$ WORK/7.c || cmake_object_order_depends_target_CLASS_WORK
+  DEP_FILE = CMakeFiles\CLASS_WORK.dir\7.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\CLASS_WORK.dir
   OBJECT_FILE_DIR = CMakeFiles\CLASS_WORK.dir
@@ -63,7 +69,7 @@ build CMakeFiles/CLASS_WORK.dir/4.c.obj: C_COMPILER__CLASS_WORK_unscanned_Debug 
 #############################################
 # Link the executable CLASS_WORK.exe
 
-build CLASS_WORK.exe: C_EXECUTABLE_LINKER__CLASS_WORK_Debug CMakeFiles/CLASS_WORK.dir/4.c.obj
+build CLASS_WORK.exe: C_EXECUTABLE_LINKER__CLASS_WORK_Debug CMakeFiles/CLASS_WORK.dir/6.c.obj CMakeFiles/CLASS_WORK.dir/7.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CLASS_WORK.dir
