@@ -4,13 +4,13 @@ project(CLASS_WORK C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(CLASS_WORK
-        #0.c
-        #1.c
-        #2.c
-        #3.c
-        #4.c
-        #5.c
-        #6.c
-        7.c
+        0.c
+        1.c
+        2.c
+        3.c
+        pattern_star.c
+        mem_address.c
+        dt_size.c
+        unary.c
 
 )
