@@ -3,11 +3,11 @@
 
 int main()
 {
-    int i,n=1,c;
+    int i,n=1,c; // Variable declaration and initialisation
     printf("ENTER A NUMBER >");
-    scanf("%d",&i);
+    scanf("%d",&i); //Input
     c=i;
-    for(i;i>0;i--)
+    for(i;i>0;i--) //loop
     {
         n=n*i;
     }

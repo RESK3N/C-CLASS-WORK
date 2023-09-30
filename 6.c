@@ -3,10 +3,11 @@
 
 	int main()
 	{
-		int a;
-		float b;
-		char c;
-		double d;
+    //variable declarations
+		int a; //integer
+		float b; //floating point
+		char c; //charecter
+		double d;  // double floating point
 
   		printf("Size of Int Data Types in C = %d bytes \n", sizeof(a));
   		printf("Size of Float Data Types in C = %d bytes \n", sizeof(b));

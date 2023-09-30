@@ -4,6 +4,7 @@ project(CLASS_WORK C)
 set(CMAKE_C_STANDARD 23)
 
 add_executable(CLASS_WORK
+        #0.c
         #1.c
         #2.c
         #3.c
@@ -11,4 +12,5 @@ add_executable(CLASS_WORK
         #5.c
         #6.c
         7.c
+
 )
