@@ -12,5 +12,6 @@ add_executable(CLASS_WORK
        # factorial.c
        # prime.c
         pattern_pass.c
+        name.c
 
 )

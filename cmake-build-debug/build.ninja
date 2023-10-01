@@ -55,6 +55,12 @@ build CMakeFiles/CLASS_WORK.dir/pattern_pass.c.obj: C_COMPILER__CLASS_WORK_unsca
   OBJECT_DIR = CMakeFiles\CLASS_WORK.dir
   OBJECT_FILE_DIR = CMakeFiles\CLASS_WORK.dir
 
+build CMakeFiles/CLASS_WORK.dir/name.c.obj: C_COMPILER__CLASS_WORK_unscanned_Debug E$:/CLASS$ WORK/name.c || cmake_object_order_depends_target_CLASS_WORK
+  DEP_FILE = CMakeFiles\CLASS_WORK.dir\name.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\CLASS_WORK.dir
+  OBJECT_FILE_DIR = CMakeFiles\CLASS_WORK.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CLASS_WORK
@@ -63,7 +69,7 @@ build CMakeFiles/CLASS_WORK.dir/pattern_pass.c.obj: C_COMPILER__CLASS_WORK_unsca
 #############################################
 # Link the executable CLASS_WORK.exe
 
-build CLASS_WORK.exe: C_EXECUTABLE_LINKER__CLASS_WORK_Debug CMakeFiles/CLASS_WORK.dir/pattern_pass.c.obj
+build CLASS_WORK.exe: C_EXECUTABLE_LINKER__CLASS_WORK_Debug CMakeFiles/CLASS_WORK.dir/pattern_pass.c.obj CMakeFiles/CLASS_WORK.dir/name.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CLASS_WORK.dir
