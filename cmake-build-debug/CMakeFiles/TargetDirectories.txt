@@ -1,3 +1,3 @@
-E:/CLASS WORK/cmake-build-debug/CMakeFiles/CLASS_WORK.dir
-E:/CLASS WORK/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CLASS WORK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/resken/CLionProjects/C-CLASS-WORK/cmake-build-debug/CMakeFiles/CLASS_WORK.dir
+/Users/resken/CLionProjects/C-CLASS-WORK/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/resken/CLionProjects/C-CLASS-WORK/cmake-build-debug/CMakeFiles/rebuild_cache.dir
