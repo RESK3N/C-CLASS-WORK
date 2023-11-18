@@ -18,5 +18,5 @@ int main()
     scanf("%d",&c2.img);
     c3.real=c1.real+c2.real;// c3.real used to store the sum of real parts of the two numbers
     c3.img=c1.img+c2.img;// c3.img used to store the sum of imaginary parts of the two numbers
-    printf("Sum of the two complex numbers are real = %d imaginary = %d",c3.real,c3.img);
+    printf("Sum of the two complex numbers is %d+%di",c3.real,c3.img);
 }
