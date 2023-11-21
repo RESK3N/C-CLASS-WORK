@@ -11,7 +11,7 @@ int main()
     l1:
     printf("Enter the number of products to log >> ");
     scanf("%d",&c);
-    if(c>99)
+    if(c>15)
     {
         printf("!!! Enter a lower number of products !!! \n");
         goto l1;
@@ -43,7 +43,7 @@ int main()
         gets(name);
         for(i=0;i<c;i++)
         {
-            if((strcmp(name,s[i].name))==0)
+            if((strcasecmp(name,s[i].name))==0)
             {
                 printf("! Product found !\n");
                 printf("Product Name >> %s\n",s[i].name);
