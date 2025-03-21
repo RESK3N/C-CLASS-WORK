@@ -32,6 +32,7 @@ int main()
         printf("Enter Product %d Price >> ",i+1);
         scanf("%d",&s[i].p);
     }
+    printf("All details are sucessfully registered !!! ")
     l2: // to Search again
     flag=0;// resets the value of flag for re use
     printf("Search by ?\n1.Product Name \n2.Product ID \n");
